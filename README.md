@@ -1,9 +1,9 @@
 # Deep-RL Adaptive Gain Tuner for Flexible-Joint Teleoperation with Time-Varying Delays  
-**Repository:** `flexible_joint_v4_rl_Slave_Action_2025`  
+
 **Paper:** [Deep Reinforcement Learning for Adaptive Gain Tuning in Control of Teleoperation Manipulators with Joint Flexibility and Time-Varying Delays](assets/Revised_Paper.pdf) – ICRoM 2025  
 **Poster:** [Conference Poster](assets/103_final_poster.pdf)
 
-![Head Image](assets/headtitle.jpg)
+![Head Image](assets/headtitle.JPG)
 
 ## 1. Algorithm in a Nutshell
 We let a reinforcement-learning agent sit on the slave side of a bilateral teleoperation setup and continuously decide how stiff or how damped the slave should be at every instant. The agent is built on the TD3 (Twin-Delayed Deep Deterministic Policy Gradient) algorithm and needs no model of the robot or of the network. It only watches the motion of the slave motor, the delayed master position, and two error signals that tell it how well the slave is tracking and how much the flexible joint is vibrating. Each decision is a fresh set of proportional and damping gains sent to the local P+d controller. A simple safety rule keeps the chosen gains inside a stability-certified range, so the system remains stable even when the internet delay keeps changing. Training is done once, offline; afterwards the same neural-network weights run in real time inside Simulink with no further tuning.
