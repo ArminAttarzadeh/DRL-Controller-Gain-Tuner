@@ -1,7 +1,8 @@
 # Deep-RL Adaptive Gain Tuner for Flexible-Joint Teleoperation with Time-Varying Delays  
 
 **Paper:** Deep Reinforcement Learning for Adaptive Gain Tuning in Control of Teleoperation Manipulators with Joint Flexibility and Time-Varying Delays 
-[Paper](assets/Revised_Paper.pdf) – ICRoM 2025  
+[ArXiv]([https://www.linkedin.com/in/armin-att/](https://arxiv.org/abs/2607.21145))
+[PDF](assets/Revised_Paper.pdf) – ICRoM 2025  
 **Poster:** [Conference Poster](assets/103_final_poster.pdf)
 
 ![Head Image](assets/headtitle.JPG)
@@ -25,4 +26,4 @@ Department of Electrical Engineering, Iran University of Science & Technology (I
 Contact: arminattarzadeh@gmail.com
 
 ## 4. Citation
-“Deep Reinforcement Learning for Adaptive Gain Tuning in Control of Teleoperation Manipulators with Joint Flexibility and Time-Varying Delays,” ICRoM 2025 (DOI: soon)
+“Deep Reinforcement Learning for Adaptive Gain Tuning in Control of Teleoperation Manipulators with Joint Flexibility and Time-Varying Delays,” ICRoM 2025 (DOI: https://arxiv.org/abs/2607.21145 )
